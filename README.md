@@ -110,3 +110,28 @@ GET: 200 {"value":"leela"}
 ## 👤 Author
 
 Leela Prasad Reddy
+## 🐳 Docker Setup
+
+This project is fully containerized using Docker.
+
+### Build Docker Image
+
+```bash
+docker build -t kv-store .
+```
+
+### Run Container
+
+```bash
+docker run -p 5001:5000 kv-store
+```
+
+### Access Application
+
+* Server runs at: http://127.0.0.1:5001
+
+### Benefits
+
+* Ensures consistent environment across systems
+* Simplifies deployment
+* Eliminates dependency issues
