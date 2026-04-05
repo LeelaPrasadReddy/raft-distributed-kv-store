@@ -19,6 +19,9 @@ This project simulates a distributed system where:
 ```
 Client → Leader Node → Replica Nodes
 ```
+## 🏗️ Architecture Diagram
+
+![Architecture](architecture.png)
 
 * Client sends requests (PUT/GET)
 * Leader processes writes
