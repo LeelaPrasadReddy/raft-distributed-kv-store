@@ -110,28 +110,8 @@ GET: 200 {"value":"leela"}
 ## 👤 Author
 
 Leela Prasad Reddy
-## 🐳 Docker Setup
-
-This project is fully containerized using Docker.
-
-### Build Docker Image
-
-```bash
-docker build -t kv-store .
-```
-
-### Run Container
-
-```bash
-docker run -p 5001:5000 kv-store
-```
-
-### Access Application
-
-* Server runs at: http://127.0.0.1:5001
-
-### Benefits
-
-* Ensures consistent environment across systems
-* Simplifies deployment
-* Eliminates dependency issues
+Distributed Key-Value Store | Python, Flask, Docker, REST APIs
+• Built and containerized a distributed key-value store with leader-based replication
+• Developed REST APIs for handling client requests and data consistency
+• Implemented replication logic across simulated nodes for fault tolerance
+• Used Docker to ensure consistent deployment and eliminate environment dependency issues
